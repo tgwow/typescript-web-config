@@ -1,0 +1,27 @@
+{
+  "name": "typescript-web-config",
+  "version": "1.0.0",
+  "description": "Configurations to start a web application with typescript",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc -w",
+    "lite": "lite-server",
+    "dev": "concurrently \"npm run build\" \"npm run lite\""
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": {
+    "name": "tgwow",
+    "url": "https://github.com/tgwow"
+  },
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/tgwow/typescript-web-config.git"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "lite-server": "^2.5.4",
+    "typescript": "^3.9.6"
+  }
+}
