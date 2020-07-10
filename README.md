@@ -26,12 +26,10 @@ npm run dev
 
 ## Technologies
 
-[typescript](https://www.typescriptlang.org/)
+[typescript](https://www.typescriptlang.org/) - Turn Javascript typed
 
-[lite-server](https://www.npmjs.com/package/lite-server)
+[lite-server](https://www.npmjs.com/package/lite-server) - Development node web server
 
-[concurrently](https://www.npmjs.com/package/concurrently)
-
-## 
+[concurrently](https://www.npmjs.com/package/concurrently) - Run multiple commands concurrently
 
 
